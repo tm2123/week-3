@@ -12,7 +12,6 @@ You start building your personal portfolio website.
 2. User stories
 3. Information Architecture
 4. Google as a resource
-5. 
 
 **Coding:**
 
@@ -23,11 +22,6 @@ You start building your personal portfolio website.
 
 1. Chrome Developer Tools
 2. Trello
-3. 
-4.  
-5. 
-6. 
-7. 
 
 ## Week 3 Requirements
 
