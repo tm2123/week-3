@@ -1,0 +1,128 @@
+/*Follow*/
+body{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 54px;
+  width: 100%;
+  background: #13171B;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 990;
+}
+
+header .logo {
+  margin-left: 36px;
+  margin-right: 88px;
+  margin-top: 9px;
+  float: left;
+  width: auto; 
+  z-index: 991; 
+  position: relative; 
+}
+header .logo a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 64px;
+  height: 18px;
+  text-decoration: none;
+  font-size: 26px;
+  font-family: 'montserrat-bold', sans-serif;
+  color: #FFFFFF;  
+}
+
+#nav-wrap, #nav-wrap ul, #nav-wrap li, #nav-wrap a {
+  margin: 0;
+  padding: 0;
+}
+
+#nav-wrap {
+  font: 11px 'montserrat-regular', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  float: left;
+}
+
+ul#nav {
+  min-height: 54px;
+  width: auto;
+  text-align: left;
+}
+ul#nav li {
+  position: relative;
+  list-style: none;
+  height: 54px;
+  display: inline-block;
+
+}
+#nav li a {
+  display: inline-block;
+  padding: 8px 8px;
+  line-height: 38px;
+  text-decoration: none;
+  text-align: left;
+  color: #58687A;
+}
+#main {
+  padding-top: 66px;
+  background: #23292f;
+  overflow: hidden;
+}
+.main-text {
+  color: #676e73;
+  width: 83%;
+  text-align: center;
+  margin: 54px auto 24px auto;
+}
+.main-text h1 {
+  font: 40px/1.2em 'montserrat-regular', sans-serif; 
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
+}
+.main-text h1, .main-text a { 
+  color: #11ABB0; 
+}
+.main-text p {
+  font: 16px/30px 'opensans-regular', sans-serif;
+  padding: 0;
+  margin: 12px 8% 0;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
+}
+#work {
+  background: #fff;
+  padding-top: 0px;
+  padding-bottom: 78px;
+  overflow: hidden;
+}
+#work h3 {
+  font: 16px/24px 'montserrat-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #222;
+}
+
+#about {
+  background: #10999E;
+  padding-top: 112px;
+  padding-bottom: 66px;
+  position: relative;
+  height: 198px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+#about h1 {
+  font: 16px/24px 'montserrat-bold', sans-serif;
+  color: #6AECF0;
+  text-transform: uppercase;
+  letter-spacing: 2px;   
+  margin-bottom: 36px;
+}
